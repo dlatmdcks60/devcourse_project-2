@@ -16,7 +16,7 @@ app.post('/upload', (req, res) => {
     res.json({
         result: true,
         uploadData: req.body,
-    });
+    }); 
 });
 
 app.get('/post/:id', (req, res) => {
